@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ouyangxuegxnu.github.io/</loc>
+    <loc>http://localhost:6511/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/tags/</loc>
+    <loc>http://localhost:6511/tags/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/conferences/</loc>
+    <loc>http://localhost:6511/conferences/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/unpublished/</loc>
+    <loc>http://localhost:6511/unpublished/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/achievements/</loc>
+    <loc>http://localhost:6511/achievements/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/projects/</loc>
+    <loc>http://localhost:6511/projects/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/team/</loc>
+    <loc>http://localhost:6511/team/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/research/</loc>
+    <loc>http://localhost:6511/research/</loc>
   </url><url>
-    <loc>https://ouyangxuegxnu.github.io/recruitment/</loc>
+    <loc>http://localhost:6511/recruitment/</loc>
   </url>
 </urlset>
