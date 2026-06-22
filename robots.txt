@@ -2,7 +2,7 @@ User-agent: *
 
 Disallow: /zh/404
 
-Sitemap: http://localhost:6511//sitemap.xml
+Sitemap: https://ouyangxuegxnu.github.io//sitemap.xml
 
 # Block all known AI crawlers and assistants
 # from using content for training AI models.
