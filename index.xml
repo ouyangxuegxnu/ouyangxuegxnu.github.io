@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>欧阳雪的个人主页</title>
-		<link>https://ouyangxuegxnu.github.io/</link>
+		<link>http://localhost:2051/</link>
 		<description>Recent content on 欧阳雪的个人主页</description>
 		<generator>Hugo</generator>
 		<language>zh-CN</language>
@@ -12,54 +12,54 @@
 			<copyright>版权所有 © 欧阳雪 | 基于 [Hugo](https://gohugo.io/) 构建</copyright>
 		
 		
-			<atom:link href="https://ouyangxuegxnu.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:2051/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>参加会议</title>
-				<link>https://ouyangxuegxnu.github.io/conferences/</link>
+				<link>http://localhost:2051/conferences/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/conferences/</guid>
+				<guid>http://localhost:2051/conferences/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>成果暂未见刊</title>
-				<link>https://ouyangxuegxnu.github.io/unpublished/</link>
+				<link>http://localhost:2051/unpublished/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/unpublished/</guid>
+				<guid>http://localhost:2051/unpublished/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>科研成果</title>
-				<link>https://ouyangxuegxnu.github.io/achievements/</link>
+				<link>http://localhost:2051/achievements/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/achievements/</guid>
+				<guid>http://localhost:2051/achievements/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>科研项目</title>
-				<link>https://ouyangxuegxnu.github.io/projects/</link>
+				<link>http://localhost:2051/projects/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/projects/</guid>
+				<guid>http://localhost:2051/projects/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>团队介绍</title>
-				<link>https://ouyangxuegxnu.github.io/team/</link>
+				<link>http://localhost:2051/team/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/team/</guid>
+				<guid>http://localhost:2051/team/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>研究方向</title>
-				<link>https://ouyangxuegxnu.github.io/research/</link>
+				<link>http://localhost:2051/research/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/research/</guid>
+				<guid>http://localhost:2051/research/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>招生招聘</title>
-				<link>https://ouyangxuegxnu.github.io/recruitment/</link>
+				<link>http://localhost:2051/recruitment/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://ouyangxuegxnu.github.io/recruitment/</guid>
+				<guid>http://localhost:2051/recruitment/</guid>
 				<description></description>
 			</item>
 	</channel>

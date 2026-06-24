@@ -491,5 +491,110 @@ nav.navbar,
   .home-profile__tag {
     width: 100%;
     justify-content: center;
+
+    /* ====== 核心追加：彻底切断任何点击可能 ====== */
+      cursor: default !important;
+      /* 鼠标指针彻底恢复成普通的箭头，而不是小手 */
+      pointer-events: none !important;
+      /* 终极武器：让浏览器完全忽略在这个标签上的任何鼠标点击事件 */
   }
+}
+
+/* 导航网格：适配学术主页的紧凑干练布局 */
+.home-profile__navigation-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+/* ================= 更多信息导航卡片（完全同步研究方向风格） ================= */
+
+/* 1. 导航网格保持不变，控制卡片并排 */
+.home-profile__navigation-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+/* 2. 基础卡片：核心样式完全复制研究方向的胶囊风格，同时保留 Flex 弹性两端对齐 */
+.el-nav-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 52px;
+  /* 比纯标签略高一点点，更适合作为卡片导航 */
+  padding: 0.5rem 1.5rem;
+
+  /* 完全同步研究方向的配色与圆角 */
+  color: var(--academic-blue) !important;
+  background: rgba(238, 247, 255, 0.92);
+  border: 1px solid rgba(15, 95, 159, 0.16);
+  border-radius: 999px;
+  /* 完美契合大胶囊圆角 */
+
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+
+  /* 动效过渡 */
+  transition: all 0.3s cubic-bezier(.645, .045, .355, 1);
+  position: relative;
+  cursor: pointer;
+  /* 既然可以点击，保持小手手势 */
+}
+
+/* 左侧内容布局 */
+.el-nav-card__content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* 图标外衬：在这里我们不再要大方块底色，直接让图标呈现纯粹的学术蓝，更干净精炼 */
+.el-nav-card__icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--academic-blue);
+  transition: transform 0.3s ease;
+}
+
+/* 标题文字：继承父级的学术蓝 */
+.el-nav-card__title {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+/* 右侧箭头符号：颜色略淡，保持呼吸感 */
+.el-nav-card__arrow {
+  color: rgba(15, 95, 159, 0.6);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* ================= 智能悬浮互动特效 (Hover) ================= */
+
+.el-nav-card:hover {
+  /* 悬浮时，底色加深一点点，边框加固，同时带有平滑上浮和微弱学术蓝投影 */
+  background: rgba(225, 241, 255, 0.98);
+  border-color: rgba(15, 95, 159, 0.4);
+  box-shadow: 0 4px 12px rgba(15, 95, 159, 0.08);
+  transform: translateY(-2px);
+  /* 轻轻上浮 */
+}
+
+/* 悬浮时左侧小图标轻轻放大，增加灵动感 */
+.el-nav-card:hover .el-nav-card__icon-wrapper {
+  transform: scale(1.1);
+}
+
+/* 悬浮时右侧箭头向右滑动，且颜色加深 */
+.el-nav-card:hover .el-nav-card__arrow {
+  color: var(--academic-blue);
+  transform: translateX(4px);
 }
