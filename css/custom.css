@@ -124,6 +124,32 @@ main > .container {
   font-weight: 700;
 }
 
+/* Keep numbers beside the complete project or conference text block. */
+.list-group-numbered > .project-item,
+.list-group-numbered > .achievement-item,
+.list-group-numbered > .conference-item {
+  display: grid;
+  grid-template-columns: 3ch minmax(0, 1fr);
+  column-gap: 0.5rem;
+  align-items: baseline;
+}
+
+.list-group-numbered > .project-item::before,
+.list-group-numbered > .achievement-item::before,
+.list-group-numbered > .conference-item::before {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: right;
+}
+
+.project-item > .project-content,
+.achievement-item > .achievement-content,
+.conference-item > .conference-content {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+
 .content-panel .achievement-item a.achievement-title-link,
 .content-panel .achievement-item a.achievement-title-link:visited,
 .content-panel .achievement-item a.achievement-title-link:focus,
